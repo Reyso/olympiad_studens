@@ -1,0 +1,18 @@
+Certamente! Com base no seu conjunto de dados específico, aqui estão algumas dicas mais específicas de feature engineering que podem ser úteis:
+
+1. Ano de estabelecimento:
+   - Em vez de usar o ano de estabelecimento como uma variável numérica, você pode criar uma nova feature que represente a idade da empresa em grupos, como "nova", "antiga" ou "intermediária". Isso pode capturar melhor a relação entre a idade da empresa e o status do caso.
+
+2. Salário prevalecente:
+   - Em vez de usar o valor absoluto do salário prevalecente, você pode criar uma nova feature que represente se o salário está acima ou abaixo de uma determinada faixa, como "alto" e "baixo". Isso pode ajudar a capturar a influência do salário na decisão de aprovação do visto.
+
+3. Educação do empregado:
+   - Em vez de tratar a educação do empregado como uma variável categórica simples, você pode criar uma nova feature que represente o nível de educação, atribuindo valores numéricos correspondentes, como "Ensino Médio" = 1, "Graduação" = 2, "Mestrado" = 3, etc. Isso pode ajudar a capturar a relação ordinal entre os níveis de educação.
+
+4. Experiência de trabalho e requer treinamento de trabalho:
+   - Considere a possibilidade de combinar as duas variáveis em uma única feature que represente diferentes combinações de experiência de trabalho e requerimento de treinamento. Por exemplo, você pode criar uma nova feature com categorias como "Experiência de trabalho e requer treinamento", "Experiência de trabalho e não requer treinamento", "Sem experiência de trabalho e requer treinamento", "Sem experiência de trabalho e não requer treinamento", etc.
+
+5. Região de emprego:
+   - Em vez de tratar a região de emprego como uma variável categórica simples, você pode criar features dummy separadas para cada região. Isso permitirá que o modelo capture os efeitos específicos de cada região no status do caso.
+
+Lembre-se de que essas são apenas sugestões com base nas informações fornecidas. É importante explorar seus dados, entender o contexto do problema e iterar com diferentes abordagens para encontrar as combinações de features mais relevantes e informativas para o seu modelo.
