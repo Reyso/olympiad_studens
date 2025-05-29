@@ -22,3 +22,9 @@ O aumento do número de candidatos a cada ano demanda uma solução baseada em A
 Facilitar o processo de aprovação de vistos.
 
 Recomendar um perfil adequado para os candidatos para os quais o visto deve ser certificado ou negado, com base nos fatores que influenciam significativamente o status do caso.
+
+
+# Resultado
+
+Consegui alcançar a colocação de número 39, com f1-score 0.69801.
+
