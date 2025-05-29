@@ -28,3 +28,4 @@ Recomendar um perfil adequado para os candidatos para os quais o visto deve ser 
 
 Consegui alcançar a colocação de número 39, com f1-score 0.69801.
 
+## Para acompanhar a colocação final, `[clique aqui https://www.kaggle.com/competitions/ml-olympiad-for-students-topvistos-eua/leaderboard
